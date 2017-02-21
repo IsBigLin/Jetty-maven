@@ -1,0 +1,38 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="JettyTest:war exploded">
+    <output-path>$PROJECT_DIR$/target/JettyTest-1.0-SNAPSHOT</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="JettyTest" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.eclipse.jetty.aggregate:jetty-all:8.0.4.v20111024" />
+          <element id="library" level="project" name="Maven: org.mortbay.jetty:servlet-api:3.0.20100224" />
+          <element id="library" level="project" name="Maven: org.apache.geronimo.specs:geronimo-jta_1.1_spec:1.1.1" />
+          <element id="library" level="project" name="Maven: javax.mail:mail:1.4.1" />
+          <element id="library" level="project" name="Maven: javax.activation:activation:1.1" />
+          <element id="library" level="project" name="Maven: org.apache.geronimo.specs:geronimo-jaspic_1.0_spec:1.0" />
+          <element id="library" level="project" name="Maven: org.apache.geronimo.specs:geronimo-annotation_1.0_spec:1.1.1" />
+          <element id="library" level="project" name="Maven: asm:asm-commons:3.1" />
+          <element id="library" level="project" name="Maven: asm:asm-tree:3.1" />
+          <element id="library" level="project" name="Maven: asm:asm:3.1" />
+          <element id="library" level="project" name="Maven: org.eclipse.jetty:jetty-webapp:8.0.4.v20111024" />
+          <element id="library" level="project" name="Maven: org.eclipse.jetty:jetty-xml:8.0.4.v20111024" />
+          <element id="library" level="project" name="Maven: org.eclipse.jetty:jetty-util:8.0.4.v20111024" />
+          <element id="library" level="project" name="Maven: org.eclipse.jetty:jetty-servlet:8.0.4.v20111024" />
+          <element id="library" level="project" name="Maven: org.eclipse.jetty:jetty-security:8.0.4.v20111024" />
+          <element id="library" level="project" name="Maven: org.eclipse.jetty:jetty-server:8.0.4.v20111024" />
+          <element id="library" level="project" name="Maven: org.eclipse.jetty:jetty-continuation:8.0.4.v20111024" />
+          <element id="library" level="project" name="Maven: org.eclipse.jetty:jetty-http:8.0.4.v20111024" />
+          <element id="library" level="project" name="Maven: org.eclipse.jetty:jetty-io:8.0.4.v20111024" />
+          <element id="library" level="project" name="Maven: javax.servlet:javax.servlet-api:3.0.1" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/JettyTest-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="JettyTest/web/Web" />
+    </root>
+  </artifact>
+</component>
